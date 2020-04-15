@@ -301,6 +301,35 @@ a:hover .ico {
   color: #e77474;
 }
 
+ul {
+       -webkit-column-count: 3;
+       -webkit-column-gap: 20px;
+       -moz-column-count: 3;
+       -moz-column-gap: 20px;
+       column-count: 3;
+       column-gap: 20px;
+       text-align:justify;
+}
+ul li2 {
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+ul li {
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+ul li a img,
+ul li a {
+    width: inherit;
+}
+ul li a span {
+    display: block;
+}
+
 /*About*/
 .about .main-img>img {
   margin: 0 auto;

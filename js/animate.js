@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
 
         // Pluses
          $('#pluses h2').css('opacity', 0).one('inview', function(isInView) {
-            if (isInView) {$(this).addClass('animated zoomIn delay0');}
+            if (isInView) {$(this).addClass('animated fadeInUp delay0');}
         });
 
          $('#pluses p').css('opacity', 0).one('inview', function(event, isInView) {
